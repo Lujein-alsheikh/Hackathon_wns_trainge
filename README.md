@@ -23,7 +23,6 @@ Image modification is provided by the modules:
 
 3. from tf.keras.layers
 https://keras.io/api/layers/preprocessing_layers/image_augmentation/ <br/>
-
 Example https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomBrightness
 
 Data augmentation tutorial by tensorflow: https://www.tensorflow.org/tutorials/images/data_augmentation <br/>
@@ -32,7 +31,7 @@ Another relevant tutorial: https://www.tensorflow.org/tutorials/images/classific
 To read further:
 https://keras.io/search.html?query=image%20augmentation
 
-Questions:
+Questions: <br/>
 What does each of contrast, hue, saturation, and brightness mean? <br/>
 What does tf.image.stateless_random_jpeg_quality do? <br/>
 Do noising and blurring reduce the performance of cnns? <br/>
