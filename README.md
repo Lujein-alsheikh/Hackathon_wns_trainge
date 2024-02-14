@@ -35,6 +35,9 @@ Questions: <br/>
 What does each of contrast, hue, saturation, and brightness mean? <br/>
 What does tf.image.stateless_random_jpeg_quality do? <br/>
 Do noising and blurring reduce the performance of cnns? <br/>
+https://forums.fast.ai/t/blur-as-data-augmentation/1385
 How to blurr an image? <br/>
+https://medium.com/analytics-vidhya/blur-or-change-background-of-images-using-machine-learning-with-tensorflow-f7dab3ddab6f
+
 
 
