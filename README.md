@@ -39,5 +39,5 @@ https://forums.fast.ai/t/blur-as-data-augmentation/1385
 How to blurr an image? <br/>
 https://medium.com/analytics-vidhya/blur-or-change-background-of-images-using-machine-learning-with-tensorflow-f7dab3ddab6f
 
-
+Checking that changing the directory works
 
