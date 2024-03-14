@@ -4,20 +4,26 @@ The problem of this hackathon is to classify real damaged cars' images from fake
 Libraries to work with images:
 PIL (pillow): https://pillow.readthedocs.io/en/latest/reference/Image.html
 
+<details>
+<summary>Summary of the notebooks: </summary>
+
+The interesting notebook is "hackathon_code". The rest are just draft-ish.
 Summary of notebook "Getting to know the images":
 All images are RGB and they come in different sizes so we need to resize them.
 Keep in mind some nuances when working with images. Simple example, if we read the image using plt.imread, its shape will be HxWxC (C:channels) and its size is the number of pixels. Whereas if we open it with PIL, its size is WxHxC
 
-Summary of notebook "Padding_cropping_resizing": applying padding and cropping. 
-Summary of notebook "Resizing and saving test images" is self-explanatory.
+Notebooks "Padding_cropping_resizing" and "Resizing and saving test images" are self-explanatory.
 
 Summary of notebook "Draft_missing_images_1": I accidentally deleted some images. This notebook is to check which ones and restore them. 
 
 Summary of notebook "Draft_missing_images_2": sanity check that images are complete.
 
 Summary of notebooks "Exploring_Image_augmentation_functions: applying some transformations on the same image. 
+</details>
 
-Image modification is provided by the modules:
+<details>
+
+<summary> Image modification is provided by the modules: </summary>
 1. The tf.image module https://www.tensorflow.org/api_docs/python/tf/image/
 2. The module tensorflow.keras.preprocessing.image https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image
 
@@ -25,18 +31,17 @@ Image modification is provided by the modules:
 https://keras.io/api/layers/preprocessing_layers/image_augmentation/ <br/>
 Example https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomBrightness
 
-To read further:
-https://keras.io/search.html?query=image%20augmentation
+</details>
 
-Questions: <br/>
+<details>
+<summary> Questions: </summary>
 What does each of contrast, hue, saturation, and brightness mean? <br/>
 What does tf.image.stateless_random_jpeg_quality do? <br/>
 Do noising and blurring reduce the performance of cnns? <br/>
 https://forums.fast.ai/t/blur-as-data-augmentation/1385
 How to blurr an image? <br/>
 https://medium.com/analytics-vidhya/blur-or-change-background-of-images-using-machine-learning-with-tensorflow-f7dab3ddab6f
-
-Checking that changing the directory works </br>
+</details>
 
 <details>
 <summary> Helpful Tutorials: </summary>
@@ -56,7 +61,7 @@ tf.data: Build TensorFlow input pipelines from tensorflow: https://www.tensorflo
 
 <details>
 <summary> To read further </summary>
-
+https://keras.io/search.html?query=image%20augmentation
 What do Dataset.cache and Dataset.prefetch do? https://www.tensorflow.org/guide/data_performance </br>
 
 </details>
