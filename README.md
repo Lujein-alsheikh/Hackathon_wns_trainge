@@ -7,7 +7,7 @@ PIL (pillow): https://pillow.readthedocs.io/en/latest/reference/Image.html
 <details>
 <summary>Summary of the notebooks: </summary>
 
-The interesting notebook is "hackathon_code". The rest are just draft-ish.
+The interesting notebook is "hackathon_code". The rest are just draft-ish. </br>
 Summary of notebook "Getting to know the images":
 All images are RGB and they come in different sizes so we need to resize them.
 Keep in mind some nuances when working with images. Simple example, if we read the image using plt.imread, its shape will be HxWxC (C:channels) and its size is the number of pixels. Whereas if we open it with PIL, its size is WxHxC
@@ -24,8 +24,8 @@ Summary of notebooks "Exploring_Image_augmentation_functions: applying some tran
 <details>
 
 <summary> Image modification is provided by the modules: </summary>
-1. The tf.image module https://www.tensorflow.org/api_docs/python/tf/image/
-2. The module tensorflow.keras.preprocessing.image https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image
+1. The tf.image module https://www.tensorflow.org/api_docs/python/tf/image/ </br>
+2. The module tensorflow.keras.preprocessing.image https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image </br>
 
 3. from Keras preprocessing layers: tf.keras.layers
 https://keras.io/api/layers/preprocessing_layers/image_augmentation/ <br/>
