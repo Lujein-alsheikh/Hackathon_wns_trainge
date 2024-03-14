@@ -21,12 +21,9 @@ Image modification is provided by the modules:
 1. The tf.image module https://www.tensorflow.org/api_docs/python/tf/image/
 2. The module tensorflow.keras.preprocessing.image https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image
 
-3. from tf.keras.layers
+3. from Keras preprocessing layers: tf.keras.layers
 https://keras.io/api/layers/preprocessing_layers/image_augmentation/ <br/>
 Example https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomBrightness
-
-Data augmentation tutorial by tensorflow: https://www.tensorflow.org/tutorials/images/data_augmentation <br/>
-Another relevant tutorial: https://www.tensorflow.org/tutorials/images/classification 
 
 To read further:
 https://keras.io/search.html?query=image%20augmentation
@@ -40,10 +37,29 @@ How to blurr an image? <br/>
 https://medium.com/analytics-vidhya/blur-or-change-background-of-images-using-machine-learning-with-tensorflow-f7dab3ddab6f
 
 Checking that changing the directory works </br>
+
 <details>
 <summary> Helpful Tutorials: </summary>
+How to load the images?
+TensorFlow Tutorial 18 - Custom Dataset for Images: https://www.youtube.com/watch?v=q7ZuZ8ZOErE&list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb&index=18 </br>
+
+Load and preprocess images by tensorflow: https://www.tensorflow.org/tutorials/load_data/images </br>
+How to load a custom dataset with images in directories: https://www.youtube.com/watch?v=q7ZuZ8ZOErE&t=1118s </br>
+
+Data augmentation tutorial by tensorflow: https://www.tensorflow.org/tutorials/images/data_augmentation <br/>
+Image classification tutorial by tensorflow: https://www.tensorflow.org/tutorials/images/classification </br>
+
 How to Create Efficient Training Pipelines with TensorFlow data.Dataset (Tensorflow Datasets): https://www.youtube.com/watch?v=4WNz2xrGe8w </br>
 
+tf.data: Build TensorFlow input pipelines from tensorflow: https://www.tensorflow.org/guide/data
 </details>
+
+<details>
+<summary> To read further </summary>
+
+What do Dataset.cache and Dataset.prefetch do? https://www.tensorflow.org/guide/data_performance </br>
+
+</details>
+
 
 
